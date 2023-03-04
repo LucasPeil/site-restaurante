@@ -1,0 +1,28 @@
+@import '../abstract/variables';
+
+.header{
+    
+    display: flex;
+    width: 88%;
+    margin: 8rem auto;
+    .header-background{
+        min-height: 35rem;
+        background-color: #6d6d6d;
+        width: 100%;
+        position: relative;
+
+        .header-image{
+            position: absolute;
+            background-color: #a1a1a1;
+            display: inline-block;
+            min-width: 25rem;
+            left: 2.5rem;
+            height: 38rem;
+            bottom: 2.5rem;
+            border-radius: 1rem;
+            
+        }
+    }
+    
+    
+}
