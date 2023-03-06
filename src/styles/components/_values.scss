@@ -1,0 +1,34 @@
+@import '../abstract/variables';
+
+.values{
+    margin: 4rem auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    
+    .values-content{
+        
+        margin: 2rem ;
+        padding: 2rem;
+
+        .icon{
+            background-color: #6c6c6c;
+            width: 5rem ;
+            height: 5rem;
+            line-height: 5rem;
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+        .values-text{
+            margin-top: 1rem;
+            text-align: center;
+        }
+        .values-title{
+            font-style: italic;
+            text-transform: uppercase;
+            text-align: center;
+         
+        }
+        
+    }
+}

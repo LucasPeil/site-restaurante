@@ -3,10 +3,13 @@ html, body {
   padding: 0px;
   font-family: "Montserrat", sans-serif;
 }
+html .App, body .App {
+  width: 88%;
+  margin: 1rem auto;
+}
 
 .header {
   display: flex;
-  width: 88%;
   margin: 8rem auto;
 }
 .header .header-background {
@@ -24,4 +27,64 @@ html, body {
   height: 38rem;
   bottom: 2.5rem;
   border-radius: 1rem;
+}
+
+.values {
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.values .values-content {
+  margin: 2rem;
+  padding: 2rem;
+}
+.values .values-content .icon {
+  background-color: #6c6c6c;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.values .values-content .values-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+.values .values-content .values-title {
+  font-style: italic;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dishes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+  position: relative;
+}
+.dishes .dishes-title {
+  font-size: 29.4px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-style: italic;
+  padding-bottom: 1.7rem;
+  border-bottom: 4px solid #096131;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  margin-bottom: 2rem;
+  z-index: 2;
+}
+.dishes .dish-image {
+  min-height: 20rem;
+  background-color: #6d6d6d;
+  position: absolute;
+  right: 5.8rem;
+  width: 40rem;
+  top: 4.1rem;
+}
+.dishes .dish-content {
+  max-width: 40%;
+  text-align: justify;
 }/*# sourceMappingURL=App.css.map */

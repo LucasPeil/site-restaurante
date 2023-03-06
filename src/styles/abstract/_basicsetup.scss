@@ -4,5 +4,10 @@ html, body{
     margin: 0px;
     padding: 0px;
     font-family: $font;
-
+    
+    .App{
+       
+        width: 88%;
+        margin: 1rem auto;
+    }   
 }

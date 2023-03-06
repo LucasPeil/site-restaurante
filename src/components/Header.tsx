@@ -3,7 +3,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <nav className= 'header'>
+    <main className= 'header'>
         <section className='header-background'>
         
           <section className='header-image'>
@@ -13,7 +13,7 @@ const Header = () => {
         </section>
         
 
-    </nav>
+    </main>
   )
 }
 
